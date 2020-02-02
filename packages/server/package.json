@@ -1,0 +1,37 @@
+{
+  "name": "@sigi-ssr-example/server",
+  "version": "1.0.0",
+  "description": "SSR server",
+  "keywords": [
+    "Sigi"
+  ],
+  "author": "LongYinan <lynweklm@gmail.com>",
+  "homepage": "https://github.com/sigi-framework/ssr-example",
+  "license": "MIT",
+  "main": "lib/server.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sigi-framework/ssr-example.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/sigi-framework/ssr-example/issues"
+  },
+  "dependencies": {
+    "@nestjs/common": "^6.11.5",
+    "@nestjs/core": "^6.11.5",
+    "emotion": "^10.0.27",
+    "emotion-server": "^10.0.27",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.4"
+  }
+}

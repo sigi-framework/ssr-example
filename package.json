@@ -1,0 +1,68 @@
+{
+  "name": "sigi-ssr-example",
+  "version": "1.0.0",
+  "description": "Example project for sigi framework server side rendering",
+  "repository": "git@github.com:sigi-framework/ssr-example.git",
+  "author": "LongYinan <lynweklm@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^13.7.0",
+    "@types/react-dom": "^16.9.5",
+    "@types/webpack": "^4.41.3",
+    "@typescript-eslint/eslint-plugin": "^2.18.0",
+    "@typescript-eslint/parser": "^2.18.0",
+    "emotion-ts-plugin": "^0.5.3",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "eslint-plugin-sonarjs": "^0.5.0",
+    "happypack": "^5.0.1",
+    "husky": "^4.2.1",
+    "lerna": "^3.16.4",
+    "lint-staged": "^10.0.7",
+    "prettier": "^1.19.1",
+    "ts-import-plugin": "^1.6.2",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "@sigi/core": "^1.0.0-alpha.9",
+    "@sigi/devtool": "^1.0.0-alpha.9",
+    "@sigi/di": "^1.0.0-alpha.9",
+    "@sigi/react": "^1.0.0-alpha.9",
+    "antd": "^3.26.7",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "reflect-metadata": "^0.1.13",
+    "tslib": "^1.10.0"
+  },
+  "lint-staged": {
+    "*.@(js|ts|tsx)": [
+      "prettier --write",
+      "eslint -c .eslintrc.yml --fix"
+    ]
+  },
+  "prettier": {
+    "printWidth": 120,
+    "semi": false,
+    "trailingComma": "all",
+    "singleQuote": true,
+    "arrowParens": "always",
+    "parser": "typescript"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
