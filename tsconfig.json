@@ -42,6 +42,13 @@
       "@s/*": [
         "server/src/*"
       ]
-    }
-  }
+    },
+    
+  },
+  "include": [
+    "packages"
+  ],
+  "files": [
+    "./packages/global.d.ts"
+  ]
 }
