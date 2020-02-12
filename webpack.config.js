@@ -4,6 +4,7 @@ const HappyPack = require('happypack')
 
 const { isProduction } = require('./tools/envs')
 const OutputPlugin = require('./tools/webpack-output-plugin')
+const IgnoreNotFoundExportPlugin = require('./tools/ignore-not-found-export-plugin')
 
 /**
  * @type {import('webpack').Configuration}
@@ -32,6 +33,8 @@ module.exports = {
 
   plugins: [
     new OutputPlugin(),
+    new IgnoreNotFoundExportPlugin(),
+
     new HappyPack({
       id: 'ts',
       loaders: [
