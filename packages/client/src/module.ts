@@ -1,17 +1,20 @@
 import { Module, EffectModule, ImmerReducer, TERMINATE_ACTION } from '@sigi/core'
 import { SSREffect } from '@sigi/ssr'
 import { Observable, of } from 'rxjs'
-import { exhaustMap, map, startWith, delay, endWith } from 'rxjs/operators'
+import { exhaustMap, map, startWith, delay, endWith, mergeMap } from 'rxjs/operators'
 import { Draft } from 'immer'
+import md5 from 'md5'
 
 interface State {
   count: number
+  sigiMd5: string | null
 }
 
 @Module('demoModule')
 export class DemoModule extends EffectModule<State> {
   defaultState = {
     count: 0,
+    sigiMd5: null,
   }
 
   @ImmerReducer()
@@ -22,6 +25,23 @@ export class DemoModule extends EffectModule<State> {
   @ImmerReducer()
   addOne(state: Draft<State>) {
     state.count++
+  }
+
+  @ImmerReducer()
+  setSigiMd5(state: Draft<State>, hashed: string) {
+    state.sigiMd5 = hashed
+  }
+
+  @SSREffect({
+    payloadGetter: () => {
+      return md5('sigi')
+    },
+  })
+  getSigiMd5(payload$: Observable<string>) {
+    return payload$.pipe(
+      delay(100), // mock async
+      mergeMap((hashed) => of(this.getActions().setSigiMd5(hashed), TERMINATE_ACTION)),
+    )
   }
 
   @SSREffect()

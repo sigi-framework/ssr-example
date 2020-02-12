@@ -1,4 +1,4 @@
-import 'reflect-metadata'
+import '@abraham/reflection'
 import React from 'react'
 import ReactDOM from 'react-dom'
 

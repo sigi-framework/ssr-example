@@ -1,3 +1,4 @@
+import '@abraham/reflection'
 import express from 'express'
 import { resolve } from 'path'
 

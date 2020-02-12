@@ -15,6 +15,7 @@ export function Home() {
   return (
     <Container>
       <h1>Sigi SSR example</h1>
+      <h2>{state.sigiMd5}</h2>
       <p>Count: {state.count}</p>
       <button onClick={actions.addOne}>+1</button>
     </Container>

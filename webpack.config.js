@@ -1,6 +1,7 @@
 const os = require('os')
 const { join, resolve } = require('path')
 const HappyPack = require('happypack')
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
 
 const { isProduction } = require('./tools/envs')
 const OutputPlugin = require('./tools/webpack-output-plugin')
@@ -28,13 +29,17 @@ module.exports = {
         use: 'happypack/loader?id=ts',
         exclude: /node_modules/,
       },
+      {
+        include: resolve('node_modules', 'md5'),
+        sideEffects: false,
+      },
     ],
   },
 
   plugins: [
     new OutputPlugin(),
     new IgnoreNotFoundExportPlugin(),
-
+    isProduction ? new BundleAnalyzerPlugin() : null,
     new HappyPack({
       id: 'ts',
       loaders: [
@@ -51,5 +56,5 @@ module.exports = {
       ],
       threads: os.cpus().length - 1,
     }),
-  ],
+  ].filter(Boolean),
 }
