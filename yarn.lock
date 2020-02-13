@@ -1070,29 +1070,29 @@
   resolved "https://registry.yarnpkg.com/@sigi/di/-/di-1.0.0.tgz#ec53f3ff30098210044782e833bb5c3be72af257"
   integrity sha512-l2ool76rneGt1yQtztLMshfzBYD+lx2NjkvnBOzLueSZMWGX/DFFr9ST0VesF++dIdVaXnrzWz8Qtlvo581f7g==
 
-"@sigi/di@^1.0.0-beta.1":
-  version "1.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@sigi/di/-/di-1.0.0-beta.1.tgz#ba48253c8237670c6116dd79c574eaa92edf41e9"
-  integrity sha512-Dp9LTj7i1iuabI6xblZqgOLN3NHG0CZNA5j5k1s9IUMxVbLyjjjCmjR0t2cvBgD7LurTcxywCRm9pXxk5O+F9g==
+"@sigi/di@^1.0.0", "@sigi/di@^1.0.0-beta.1":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@sigi/di/-/di-1.0.0.tgz#ec53f3ff30098210044782e833bb5c3be72af257"
+  integrity sha512-l2ool76rneGt1yQtztLMshfzBYD+lx2NjkvnBOzLueSZMWGX/DFFr9ST0VesF++dIdVaXnrzWz8Qtlvo581f7g==
 
-"@sigi/react@^1.0.0-beta.1":
-  version "1.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@sigi/react/-/react-1.0.0-beta.1.tgz#763f62c0fadefe0899174953792c02f4d214191b"
-  integrity sha512-Sm0xI0O14ycMEXE9tVLQcrBw80mFLmKTo3y0OEN0P9miePYPf7NAdM2eLMJeyY29HSsjk2dWOkJj8gyl1evXGw==
+"@sigi/react@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@sigi/react/-/react-1.0.0.tgz#70ecf3158e48a5785c0cb827b67478973e1b062e"
+  integrity sha512-C+VZEeizMDcx4DBM8Y7d1QSop7iEBewdfS8IolgFwLYf+eP+bWH0937lR49zgU/GfaJ00q+3fZ+T48RMsuY5eg==
   dependencies:
-    "@sigi/core" "^1.0.0-beta.1"
-    "@sigi/di" "^1.0.0-beta.1"
-    "@sigi/ssr" "^1.0.0-beta.1"
-    "@sigi/types" "^1.0.0-beta.1"
+    "@sigi/core" "^1.0.0"
+    "@sigi/di" "^1.0.0"
+    "@sigi/ssr" "^1.0.0"
+    "@sigi/types" "^1.0.0"
 
-"@sigi/ssr@^1.0.0-beta.1":
-  version "1.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@sigi/ssr/-/ssr-1.0.0-beta.1.tgz#63b19df6fe9e5fec6a679f95536ac05f8ac497f9"
-  integrity sha512-HJRCguypCEJzzZUjk2KzoP7VRTKYagITlUjMSqoSft4WeDd3GSDoc2273Uhcut1h0/i8epCwa5kOaaXyUauWmg==
+"@sigi/ssr@^1.0.0", "@sigi/ssr@^1.0.0-beta.1":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@sigi/ssr/-/ssr-1.0.0.tgz#18959dfde3deb2a06bc52a57f54dc5d318ae0abf"
+  integrity sha512-WfZ36xUee7Oo89KSRW0nT5I6Y8U5ETwkfJkDPlMqIlrQR6EvymRvVjhAVPLAng1yKWUEVYYt8/OgIBIyVwR8ig==
   dependencies:
-    "@sigi/core" "^1.0.0-beta.1"
-    "@sigi/di" "^1.0.0-beta.1"
-    "@sigi/types" "^1.0.0-beta.1"
+    "@sigi/core" "^1.0.0"
+    "@sigi/di" "^1.0.0"
+    "@sigi/types" "^1.0.0"
     serialize-javascript "^2.1.2"
 
 "@sigi/ts-plugin@^1.0.0":
