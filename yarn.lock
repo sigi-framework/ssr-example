@@ -1095,12 +1095,12 @@
     "@sigi/types" "^1.0.0-beta.1"
     serialize-javascript "^2.1.2"
 
-"@sigi/ts-plugin@^1.0.0-beta.1":
-  version "1.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@sigi/ts-plugin/-/ts-plugin-1.0.0-beta.1.tgz#28c2860c350258da949683033b56bb58f6c3a2dd"
-  integrity sha512-cSLxV1KGJq+HqIGZjymhtT8kFBy/xX3VaGnSWaZHp6/x3NFpc2kbrlnuBv9n1ejlUSTpMiJFtH2p0aRfDlPiIQ==
+"@sigi/ts-plugin@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@sigi/ts-plugin/-/ts-plugin-1.0.0.tgz#70596596a8e99c55a243fbf092a65330b076f3b0"
+  integrity sha512-RotD6+jBCq3gOuWUTV/ummJVTJlPHD8m1UBFF1Q9uXURj/BYOntbwz7hVTzxIINqCZ5afndIvWGITzH+eMW6RQ==
   dependencies:
-    "@sigi/types" "^1.0.0-beta.1"
+    "@sigi/types" "^1.0.0"
 
 "@sigi/types@^1.0.0", "@sigi/types@^1.0.0-beta.1":
   version "1.0.0"
