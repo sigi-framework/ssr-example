@@ -15,7 +15,7 @@
     "server": "yarn client && webpack --config webpack.ssr.js && node dist/server/main.js"
   },
   "devDependencies": {
-    "@sigi/ts-plugin": "^1.0.0-beta.1",
+    "@sigi/ts-plugin": "^1.0.0",
     "@types/happypack": "^5.0.0",
     "@types/node": "^13.7.1",
     "@types/react-dom": "^16.9.5",
