@@ -1048,21 +1048,21 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@sigi/core@^1.0.0", "@sigi/core@^1.0.0-beta.1":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-1.0.0.tgz#2f42fa64aa511526b5730d2e59aa126594f57808"
-  integrity sha512-THlSpA3Eqc7FxMmepyDMRVQvn4grIv4GGknMpI6bn4NO399xY/JlaJimyVkSxorqf4KQEnBL0y80yvujlB4FiA==
+"@sigi/core@^1.0.0", "@sigi/core@^1.0.0-beta.1", "@sigi/core@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-1.0.1.tgz#ad90f789735c70e22ef08abab4c11f7ecc02030f"
+  integrity sha512-Dc5jf0/YaTyPuq7Y0C0DvYYIzn+bM+XSK4T6eh2j97rECeiX5T1qPatRZj1OJVl1kJIfysnic9w/lniKLHDRPg==
   dependencies:
     "@sigi/di" "^1.0.0"
     "@sigi/types" "^1.0.0"
-    immer "^5.3.2"
+    immer "^5.3.6"
 
-"@sigi/devtool@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@sigi/devtool/-/devtool-1.0.0.tgz#244963992f6ed6f793d6d7aad1fd8d016ffae5a8"
-  integrity sha512-qLQi6dBdxXk6TFDG/BZ2wenlLSKftskZ4cTntaXLqVDt0BxKORkKX9+x7y4mQK995aMhAcV7XQbUUeZYMC+rqA==
+"@sigi/devtool@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@sigi/devtool/-/devtool-1.0.1.tgz#03c94bb105f2eb9358448961ad5d43e434f8c51c"
+  integrity sha512-jME68kl8Y6snlh2jcPRxmKFirFNUTB78E4rZRNPAvuw/1GjoGdDBdIF+T8WOwP1yiOYnN/M2FkmkR/cgtWledQ==
   dependencies:
-    "@sigi/core" "^1.0.0"
+    "@sigi/core" "^1.0.1"
     "@sigi/types" "^1.0.0"
 
 "@sigi/di@^1.0.0", "@sigi/di@^1.0.0-beta.1":
@@ -4485,7 +4485,7 @@ ignore@^4.0.3, ignore@^4.0.6:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
   integrity sha512-cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg==
 
-immer@^5.3.2, immer@^5.3.6:
+immer@^5.3.6:
   version "5.3.6"
   resolved "https://registry.yarnpkg.com/immer/-/immer-5.3.6.tgz#51eab8cbbeb13075fe2244250f221598818cac04"
   integrity sha512-pqWQ6ozVfNOUDjrLfm4Pt7q4Q12cGw2HUZgry4Q5+Myxu9nmHRkWBpI0J4+MK0AxbdFtdMTwEGVl7Vd+vEiK+A==
