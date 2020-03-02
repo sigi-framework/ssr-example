@@ -8275,12 +8275,12 @@ tryer@^1.0.1:
   resolved "https://registry.yarnpkg.com/tryer/-/tryer-1.0.1.tgz#f2c85406800b9b0f74c9f7465b81eaad241252f8"
   integrity sha512-c3zayb8/kWWpycWYg87P71E1S1ZL6b6IJxfb5fvsUgsf0S2MVGaDhDXXjDMpdCpfWXqptc+4mXwmiy1ypXqRAA==
 
-ts-import-plugin@^1.6.3:
-  version "1.6.3"
-  resolved "https://registry.yarnpkg.com/ts-import-plugin/-/ts-import-plugin-1.6.3.tgz#86598c4faefd958b9b50f400f7a1f117463d1d8f"
-  integrity sha512-cKzPmZtS1cssMZOnSfsIMdGXWEwA/h6wzKDwwdUQKyC6EBgzuChu3dcS3Wn4wzTzL9rCtz0Xi56aOeaH3lp5cw==
+ts-import-plugin@^1.6.5:
+  version "1.6.5"
+  resolved "https://registry.yarnpkg.com/ts-import-plugin/-/ts-import-plugin-1.6.5.tgz#4f3a109ec5da1c2e85770d133723e1ec3a7bd23b"
+  integrity sha512-RovlYnd0gJW8N6AV2CJR7DCES4cK/yyCYUoM/4Vy7LHyq+osneEa4pGNaODqb9YMgyZO4HGO67Ikwv8hvArRlw==
   dependencies:
-    tslib "^1.10.0"
+    tslib "^1.11.1"
 
 ts-loader@^6.2.1:
   version "6.2.1"
