@@ -51,7 +51,7 @@
     "@sigi/core": "^1.0.0-beta.1",
     "@sigi/devtool": "^1.0.1",
     "@sigi/di": "^1.0.0-beta.1",
-    "@sigi/react": "^1.0.1",
+    "@sigi/react": "^1.0.2",
     "@sigi/ssr": "^1.0.1",
     "antd": "^4.0.4",
     "immer": "^6.0.2",
