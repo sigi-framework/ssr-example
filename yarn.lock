@@ -1061,14 +1061,14 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@sigi/core@^1.0.0-beta.1", "@sigi/core@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-1.0.1.tgz#ad90f789735c70e22ef08abab4c11f7ecc02030f"
-  integrity sha512-Dc5jf0/YaTyPuq7Y0C0DvYYIzn+bM+XSK4T6eh2j97rECeiX5T1qPatRZj1OJVl1kJIfysnic9w/lniKLHDRPg==
+"@sigi/core@^1.0.1", "@sigi/core@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-1.0.2.tgz#84039b5efd3d5ff2d512db8d1287258c4a921fe5"
+  integrity sha512-sBFi/rdL99PLxA1km72h32JCk+iT0KYNGOkp45KTFtyZRGJm6F95dtnvVaXnGCKqCjL0c7PbMLyG7PGooqiKHw==
   dependencies:
     "@sigi/di" "^1.0.0"
     "@sigi/types" "^1.0.0"
-    immer "^5.3.6"
+    immer "^6.0.1"
 
 "@sigi/devtool@^1.0.1":
   version "1.0.1"
@@ -4423,12 +4423,7 @@ ignore@^4.0.3, ignore@^4.0.6:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
   integrity sha512-cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg==
 
-immer@^5.3.6:
-  version "5.3.6"
-  resolved "https://registry.yarnpkg.com/immer/-/immer-5.3.6.tgz#51eab8cbbeb13075fe2244250f221598818cac04"
-  integrity sha512-pqWQ6ozVfNOUDjrLfm4Pt7q4Q12cGw2HUZgry4Q5+Myxu9nmHRkWBpI0J4+MK0AxbdFtdMTwEGVl7Vd+vEiK+A==
-
-immer@^6.0.2:
+immer@^6.0.1, immer@^6.0.2:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/immer/-/immer-6.0.2.tgz#5bc08dc4930c756d0749533a2afbd88c8de0cd19"
   integrity sha512-56CMvUMZl4kkWJFFUe1TjBgGbyb9ibzpLyHD+RSKSVdytuDXgT/HXO1S+GJVywMVl5neGTdAogoR15eRVEd10Q==
