@@ -34,7 +34,7 @@
     "happypack": "^5.0.1",
     "husky": "^4.2.3",
     "lerna": "^3.20.2",
-    "lint-staged": "^10.1.0",
+    "lint-staged": "^10.1.1",
     "prettier": "^2.0.2",
     "ts-import-plugin": "^1.6.5",
     "ts-loader": "^6.2.2",
