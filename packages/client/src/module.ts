@@ -1,5 +1,4 @@
-import { Module, EffectModule, ImmerReducer, TERMINATE_ACTION } from '@sigi/core'
-import { SSREffect } from '@sigi/ssr'
+import { Module, Effect, EffectModule, ImmerReducer, TERMINATE_ACTION } from '@sigi/core'
 import { Observable, of } from 'rxjs'
 import { exhaustMap, map, startWith, delay, endWith, mergeMap } from 'rxjs/operators'
 import { Draft } from 'immer'
@@ -32,7 +31,7 @@ export class DemoModule extends EffectModule<State> {
     state.sigiMd5 = hashed
   }
 
-  @SSREffect({
+  @Effect({
     payloadGetter: () => {
       return md5('sigi')
     },
@@ -44,7 +43,9 @@ export class DemoModule extends EffectModule<State> {
     )
   }
 
-  @SSREffect()
+  @Effect({
+    ssr: true,
+  })
   asyncEffect(payload$: Observable<void>) {
     return payload$.pipe(
       exhaustMap(() =>

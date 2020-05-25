@@ -1,4 +1,4 @@
-import 'reflect-metadata'
+import '@abraham/reflection'
 
 import { resolve } from 'path'
 import fs from 'fs'

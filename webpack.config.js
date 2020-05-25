@@ -2,6 +2,7 @@ const os = require('os')
 const { join, resolve } = require('path')
 const HappyPack = require('happypack')
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 const { isProduction } = require('./tools/envs')
 const OutputPlugin = require('./tools/webpack-output-plugin')
@@ -13,6 +14,7 @@ const IgnoreNotFoundExportPlugin = require('./tools/ignore-not-found-export-plug
 module.exports = {
   entry: resolve(__dirname, './packages/client/src/app.tsx'),
   mode: isProduction ? 'production' : 'development',
+  devtool: '#cheap-eval-source-map',
   output: {
     path: resolve(__dirname, './dist/client'),
     publicPath: '/',
@@ -24,6 +26,12 @@ module.exports = {
   },
   module: {
     rules: [
+      {
+        enforce: 'pre',
+        test: /\.(t|j)sx?$/,
+        loader: 'happypack/loader?id=sourcemap',
+        include: [resolve(__dirname, './packages/client/src')],
+      },
       {
         test: /\.tsx?/,
         use: 'happypack/loader?id=ts',
@@ -55,6 +63,14 @@ module.exports = {
         },
       ],
       threads: os.cpus().length - 1,
+    }),
+    new HappyPack({
+      id: 'sourcemap',
+      loaders: ['source-map-loader'],
+      threads: os.cpus().length - 1,
+    }),
+    new HtmlWebpackPlugin({
+      template: resolve(__dirname, './index.html'),
     }),
   ].filter(Boolean),
 }

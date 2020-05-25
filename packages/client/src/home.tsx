@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { useEffectModule } from '@sigi/react'
+import { useModule } from '@sigi/react'
 import { DemoModule } from './module'
 
 const Container = styled.div({
@@ -10,12 +10,14 @@ const Container = styled.div({
 })
 
 export function Home() {
-  const [state, actions] = useEffectModule(DemoModule)
+  const [state, actions] = useModule(DemoModule, {
+    selector: (state) => ({ md5: state.sigiMd5, count: state.count }),
+  })
 
   return (
     <Container>
       <h1>Sigi SSR example</h1>
-      <h2>{state.sigiMd5}</h2>
+      <h2>{state.md5}</h2>
       <p>Count: {state.count}</p>
       <button onClick={actions.addOne}>+1</button>
     </Container>
