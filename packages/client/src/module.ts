@@ -1,4 +1,4 @@
-import { Module, Effect, EffectModule, ImmerReducer, TERMINATE_ACTION } from '@sigi/core'
+import { Module, Effect, EffectModule, ImmerReducer } from '@sigi/core'
 import { Observable, of } from 'rxjs'
 import { exhaustMap, map, startWith, delay, endWith, mergeMap } from 'rxjs/operators'
 import { Draft } from 'immer'
@@ -39,7 +39,7 @@ export class DemoModule extends EffectModule<State> {
   getSigiMd5(payload$: Observable<string>) {
     return payload$.pipe(
       delay(100), // mock async
-      mergeMap((hashed) => of(this.getActions().setSigiMd5(hashed), TERMINATE_ACTION)),
+      mergeMap((hashed) => of(this.getActions().setSigiMd5(hashed), this.terminate())),
     )
   }
 
@@ -53,7 +53,7 @@ export class DemoModule extends EffectModule<State> {
           delay(1000),
           map(({ count }) => this.getActions().setCount(count)),
           startWith(this.getActions().setCount(0)),
-          endWith(TERMINATE_ACTION),
+          endWith(this.terminate()),
         ),
       ),
     )

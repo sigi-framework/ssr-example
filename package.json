@@ -15,7 +15,7 @@
     "server": "yarn client && webpack --config webpack.ssr.js && node dist/server/main.js"
   },
   "devDependencies": {
-    "@sigi/ts-plugin": "^2.0.0",
+    "@sigi/ts-plugin": "^2.1.0",
     "@types/happypack": "^5.0.0",
     "@types/node": "^14.0.9",
     "@types/react-dom": "^16.9.8",
@@ -51,12 +51,12 @@
   },
   "dependencies": {
     "@abraham/reflection": "^0.7.0",
-    "@sigi/core": "^2.0.2",
-    "@sigi/devtool": "^2.0.2",
+    "@sigi/core": "^2.1.0",
+    "@sigi/devtool": "^2.1.0",
     "@sigi/di": "^2.0.0",
-    "@sigi/react": "^2.0.2",
-    "@sigi/ssr": "^2.0.2",
-    "antd": "^4.3.0",
+    "@sigi/react": "^2.1.0",
+    "@sigi/ssr": "^2.1.0",
+    "antd": "^4.3.1",
     "immer": "^6.0.9",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
