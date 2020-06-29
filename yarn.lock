@@ -1103,25 +1103,25 @@
   resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.0.0.tgz#f882aafcbdba56054b61f618be5630ec5a06734f"
   integrity sha512-dkvI39ThhbQFi3nQ7Lp9Pe3PWLpfUhcYIjcjyA/W4mcyJpLNRoHEwId7W/qD7h3z/vchZ7n3jbKOle7U9QxCKQ==
 
-"@sigi/react@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@sigi/react/-/react-2.1.0.tgz#04b8da875c5639724bb688d65d0a523a588878d4"
-  integrity sha512-0VRsnWo/qRCK6apHL0bMiHPEK7IGm/HwIZ4zGzoRvOTjuCdrDP9GtoQXNTxissVF/OfF6Xhp0MVJIOeAH9JHOQ==
+"@sigi/react@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@sigi/react/-/react-2.2.0.tgz#590ec8312d6fbd64b67753c0c267d03cc085e03d"
+  integrity sha512-P/TChWzewBO/ULUZXifrGi59SpFuW/RvsQkuDKdc+zJ1CAGP5zXpgohir7UoNs0FVPBEv9g2BgfA228E5PC/fA==
   dependencies:
-    "@sigi/core" "^2.1.0"
+    "@sigi/core" "^2.2.0"
     "@sigi/di" "^2.0.0"
-    "@sigi/ssr" "^2.1.0"
+    "@sigi/ssr" "^2.2.0"
     "@sigi/types" "^2.1.0"
 
-"@sigi/ssr@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@sigi/ssr/-/ssr-2.1.0.tgz#9c6a4f20ca037dabcefa0cc4dacfc59e9983771e"
-  integrity sha512-sAJfagkN2Kt4QI+ELJYio90ZjmauMWmjYjulJMS7NxI1A1EwdiGm6v+/v57Pd7oSC0sOtcrWLPk+tKKZjABEwg==
+"@sigi/ssr@^2.1.0", "@sigi/ssr@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@sigi/ssr/-/ssr-2.2.0.tgz#3da577ac276135e9053ecede3e112d0353ffc8c6"
+  integrity sha512-Z5Vogu4m6TDvBlqCRQ4lFC9NI5hbYIuVu6J5cLouXh9ILhONPOj3kJndZAJ+sNvsOdAsqT0kmcTGuPIEeSyzmw==
   dependencies:
-    "@sigi/core" "^2.1.0"
+    "@sigi/core" "^2.2.0"
     "@sigi/di" "^2.0.0"
     "@sigi/types" "^2.1.0"
-    serialize-javascript "^3.1.0"
+    serialize-javascript "^4.0.0"
 
 "@sigi/ts-plugin@^2.1.0":
   version "2.1.0"
@@ -8124,10 +8124,10 @@ serialize-javascript@^2.1.2:
   resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-2.1.2.tgz#ecec53b0e0317bdc95ef76ab7074b7384785fa61"
   integrity sha512-rs9OggEUF0V4jUSecXazOYsLfu7OGK2qIn3c7IPBiffz32XniEp/TX9Xmc9LQfK2nQ2QKHvZ2oygKUGU0lG4jQ==
 
-serialize-javascript@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-3.1.0.tgz#8bf3a9170712664ef2561b44b691eafe399214ea"
-  integrity sha512-JIJT1DGiWmIKhzRsG91aS6Ze4sFUrYbltlkg2onR5OrnNM02Kl/hnY/T4FN2omvyeBbQmMJv+K4cPOpGzOTFBg==
+serialize-javascript@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-4.0.0.tgz#b525e1238489a5ecfc42afacc3fe99e666f4b1aa"
+  integrity sha512-GaNA54380uFefWghODBWEGisLZFj00nS5ACs6yHa9nLqlLpVLO8ChDGeKRjZnV4Nh4n0Qi7nhYZD/9fCPzEqkw==
   dependencies:
     randombytes "^2.1.0"
 
