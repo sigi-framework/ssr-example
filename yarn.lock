@@ -1081,21 +1081,21 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@sigi/core@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.1.0.tgz#6c2f58d341f645cb8d4a273c7c773b8b0431092c"
-  integrity sha512-Aau8IzsnZd1FDGpxxMYi45aUbxoeAuWbmkV+mT6OCDi/EW/CiI7oWI23vH2fT3MS8IlecHA16Q3MSU4mwXxt2w==
+"@sigi/core@^2.1.0", "@sigi/core@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.2.0.tgz#7d4c8530859442f8891fdd2a70d909f0bcb17900"
+  integrity sha512-MCyl4xU0kNFWE50zxLTmXH0C2E7lywkft+8zHfaqqV+GBlAcoalXedhTemEPuTe0Cp7N0yEIEFWdNvzAzOOuBQ==
   dependencies:
     "@sigi/di" "^2.0.0"
     "@sigi/types" "^2.1.0"
-    immer "^6.0.9"
+    immer "^7.0.5"
 
-"@sigi/devtool@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@sigi/devtool/-/devtool-2.1.0.tgz#d144a6262cbd32fd0a838782f9bc88aa6dacd811"
-  integrity sha512-sm/oFq6Oci7evejykD+LLWVhMn6CynEavsjRf0AQPHc3u2raCfIqqzJ1JaGaBSgRF1FRrD23Z3C8z0GzoujFOw==
+"@sigi/devtool@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@sigi/devtool/-/devtool-2.2.0.tgz#d754156aaea55e15171e9a0f5e882b5e7d494856"
+  integrity sha512-6mLVD4Ac64RTPcKkDPmpYAbMavjyNUxWrE81otqmL+Dh6Q2LIsF5Iww53K4ewOJDwlUGQ/+qkYYZjf+2OXt3Yw==
   dependencies:
-    "@sigi/core" "^2.1.0"
+    "@sigi/core" "^2.2.0"
     "@sigi/types" "^2.1.0"
 
 "@sigi/di@^2.0.0":
@@ -4883,11 +4883,6 @@ ignore@^4.0.3, ignore@^4.0.6:
   version "4.0.6"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
   integrity sha512-cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg==
-
-immer@^6.0.9:
-  version "6.0.9"
-  resolved "https://registry.yarnpkg.com/immer/-/immer-6.0.9.tgz#b9dd69b8e69b3a12391e87db1e3ff535d1b26485"
-  integrity sha512-SyCYnAuiRf67Lvk0VkwFvwtDoEiCMjeamnHvRfnVDyc7re1/rQrNxuL+jJ7lA3WvdC4uznrvbmm+clJ9+XXatg==
 
 immer@^7.0.5:
   version "7.0.5"
