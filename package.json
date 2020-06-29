@@ -52,7 +52,7 @@
   "dependencies": {
     "@abraham/reflection": "^0.7.0",
     "@sigi/core": "^2.1.0",
-    "@sigi/devtool": "^2.1.0",
+    "@sigi/devtool": "^2.2.0",
     "@sigi/di": "^2.0.0",
     "@sigi/react": "^2.1.0",
     "@sigi/ssr": "^2.1.0",
