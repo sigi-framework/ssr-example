@@ -1073,59 +1073,59 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@sigi/core@^2.1.0", "@sigi/core@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.2.0.tgz#7d4c8530859442f8891fdd2a70d909f0bcb17900"
-  integrity sha512-MCyl4xU0kNFWE50zxLTmXH0C2E7lywkft+8zHfaqqV+GBlAcoalXedhTemEPuTe0Cp7N0yEIEFWdNvzAzOOuBQ==
+"@sigi/core@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.3.0.tgz#ce3347dcfdd97f8c942838fd33c00215d1f6301c"
+  integrity sha512-1risIT4njaz0mSHAVkyejsTcFOFdJa4CkFubkMh5KjM+vgFW5ku+hvTpCwPdZAnmnYReD55PeKpprJWlNPFTWg==
   dependencies:
-    "@sigi/di" "^2.0.0"
-    "@sigi/types" "^2.1.0"
+    "@sigi/di" "^2.3.0"
+    "@sigi/types" "^2.3.0"
     immer "^7.0.5"
 
-"@sigi/devtool@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@sigi/devtool/-/devtool-2.2.0.tgz#d754156aaea55e15171e9a0f5e882b5e7d494856"
-  integrity sha512-6mLVD4Ac64RTPcKkDPmpYAbMavjyNUxWrE81otqmL+Dh6Q2LIsF5Iww53K4ewOJDwlUGQ/+qkYYZjf+2OXt3Yw==
+"@sigi/devtool@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@sigi/devtool/-/devtool-2.3.0.tgz#806ec0a2fe6405abd87f07098ef4c5580fd2c48b"
+  integrity sha512-3l8aow+RDomDdGZSMMsYVfugZ6QovcR2wjV0exBQzRceNr0y/+4dOeDfYnPW9IVfT6vqAfoUOBM6sHmft4aTiQ==
   dependencies:
-    "@sigi/core" "^2.2.0"
-    "@sigi/types" "^2.1.0"
+    "@sigi/core" "^2.3.0"
+    "@sigi/types" "^2.3.0"
 
-"@sigi/di@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.0.0.tgz#f882aafcbdba56054b61f618be5630ec5a06734f"
-  integrity sha512-dkvI39ThhbQFi3nQ7Lp9Pe3PWLpfUhcYIjcjyA/W4mcyJpLNRoHEwId7W/qD7h3z/vchZ7n3jbKOle7U9QxCKQ==
+"@sigi/di@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.3.0.tgz#0d65b6fda9476292251b854c4993bf8e79846062"
+  integrity sha512-iO3AbkDi2P3ngk81CSrFHyJyaIR/CFaUBoqf0c6nfp7xorLV0xQzSeHg9wW+k0CEg8UK6N1b6aBZBTuPrQD6Ug==
 
-"@sigi/react@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@sigi/react/-/react-2.2.0.tgz#590ec8312d6fbd64b67753c0c267d03cc085e03d"
-  integrity sha512-P/TChWzewBO/ULUZXifrGi59SpFuW/RvsQkuDKdc+zJ1CAGP5zXpgohir7UoNs0FVPBEv9g2BgfA228E5PC/fA==
+"@sigi/react@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@sigi/react/-/react-2.3.0.tgz#e6dbe51c4b93e4aa530c8d8c540a0ddd53dc78d4"
+  integrity sha512-tyJAuDOh02v7MofCW+wReJrUzWeWs+2lLla9BMdV71IlE6QOyN9U66wDeJvikeKDrHgco48SH8Fu+F16Ecr2NQ==
   dependencies:
-    "@sigi/core" "^2.2.0"
-    "@sigi/di" "^2.0.0"
-    "@sigi/ssr" "^2.2.0"
-    "@sigi/types" "^2.1.0"
+    "@sigi/core" "^2.3.0"
+    "@sigi/di" "^2.3.0"
+    "@sigi/ssr" "^2.3.0"
+    "@sigi/types" "^2.3.0"
 
-"@sigi/ssr@^2.1.0", "@sigi/ssr@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@sigi/ssr/-/ssr-2.2.0.tgz#3da577ac276135e9053ecede3e112d0353ffc8c6"
-  integrity sha512-Z5Vogu4m6TDvBlqCRQ4lFC9NI5hbYIuVu6J5cLouXh9ILhONPOj3kJndZAJ+sNvsOdAsqT0kmcTGuPIEeSyzmw==
+"@sigi/ssr@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@sigi/ssr/-/ssr-2.3.0.tgz#a249894c1126b26515122acb310b7d2c33448d52"
+  integrity sha512-bUJisTgDSm1goWAbc0q1lC7uDMP+e2nsv99LZbSYlFdl9Tc5RVsTMHXNd1+WMmsVy3xZceyDgZKBGkIxl1PwRw==
   dependencies:
-    "@sigi/core" "^2.2.0"
-    "@sigi/di" "^2.0.0"
-    "@sigi/types" "^2.1.0"
+    "@sigi/core" "^2.3.0"
+    "@sigi/di" "^2.3.0"
+    "@sigi/types" "^2.3.0"
     serialize-javascript "^4.0.0"
 
-"@sigi/ts-plugin@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@sigi/ts-plugin/-/ts-plugin-2.1.0.tgz#9b4786f092ee78232aceeb84217f4fad44e37146"
-  integrity sha512-c+334K+KWIAfAyM+kILe+ZgguHeASK/W0pLQ0dlVtZR+vwXFfND8B8QZc9s9D7BAlMdox9LUwAX/TStdXdAhgQ==
+"@sigi/ts-plugin@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@sigi/ts-plugin/-/ts-plugin-2.3.0.tgz#0cbead8464ed1263ea17e4bafdbb7f4459389a17"
+  integrity sha512-Z16AyXgVFU+V1uqsbfuYP5wxV5B8SmTgDbQlGoN7bSbC1sm4xx5ylL8gdjBcNy/YmmSPmnVeW2RhwJC9RzS+eA==
   dependencies:
-    "@sigi/types" "^2.1.0"
+    "@sigi/types" "^2.3.0"
 
-"@sigi/types@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@sigi/types/-/types-2.1.0.tgz#aa5df4d0ec8c7fd1dfbc4bd0843d8bd47ed5ef41"
-  integrity sha512-yNgZWtVwyLBr8SdQuHBr6wM2l7zASb7Dxr8Mwch6Vz2FQWJgDagFCr2yjfQQjFini/NfvAWuv+zaeib0IT6Yxw==
+"@sigi/types@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@sigi/types/-/types-2.3.0.tgz#5fbd96d07ad99c11c8f1d0e84e602df47a214fc5"
+  integrity sha512-l81MFr+rt+H1XcLFn07ZXWH6/P1IIjIjXZqmpFRggmARycygdlVtxxfuR/sm0uXUFEDDxGv50DdFsC9+w/2hQg==
 
 "@types/anymatch@*":
   version "1.3.1"
@@ -1320,7 +1320,7 @@
     "@types/source-list-map" "*"
     source-map "^0.7.3"
 
-"@types/webpack@*", "@types/webpack@^4.41.18", "@types/webpack@^4.41.8":
+"@types/webpack@*", "@types/webpack@^4.4.31", "@types/webpack@^4.41.18", "@types/webpack@^4.41.8":
   version "4.41.18"
   resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.41.18.tgz#2945202617866ecdffa582087f1b6de04a7eed55"
   integrity sha512-mQm2R8vV2BZE/qIDVYqmBVLfX73a8muwjs74SpjEyJWJxeXBbsI9L65Pcia9XfYLYWzD1c1V8m+L0p30y2N7MA==
@@ -2566,6 +2566,14 @@ clean-stack@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/clean-stack/-/clean-stack-2.2.0.tgz#ee8472dbb129e727b31e8a10a427dee9dfe4008b"
   integrity sha512-4diC9HaTE+KRAMWhDhrGOECgWZxoevMc5TlkObMqNSsVU62PYzXZ/SMTjzyGAFF1YusgxGcSWTEXBhp0CPwQ1A==
+
+clean-webpack-plugin@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/clean-webpack-plugin/-/clean-webpack-plugin-3.0.0.tgz#a99d8ec34c1c628a4541567aa7b457446460c62b"
+  integrity sha512-MciirUH5r+cYLGCOL5JX/ZLzOZbVr1ot3Fw+KcvbhUb6PM+yycqd9ZhIlcigQ5gl+XhppNmw3bEFuaaMNyLj3A==
+  dependencies:
+    "@types/webpack" "^4.4.31"
+    del "^4.1.1"
 
 cli-cursor@^2.1.0:
   version "2.1.0"

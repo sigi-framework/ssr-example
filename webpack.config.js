@@ -3,6 +3,7 @@ const { join, resolve } = require('path')
 const HappyPack = require('happypack')
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 const { isProduction } = require('./tools/envs')
 const OutputPlugin = require('./tools/webpack-output-plugin')
@@ -14,7 +15,7 @@ const IgnoreNotFoundExportPlugin = require('./tools/ignore-not-found-export-plug
 module.exports = {
   entry: resolve(__dirname, './packages/client/src/app.tsx'),
   mode: isProduction ? 'production' : 'development',
-  devtool: '#cheap-eval-source-map',
+  devtool: isProduction ? 'hidden-nosource-sourcemap' : '#cheap-eval-source-map',
   output: {
     path: resolve(__dirname, './dist/client'),
     publicPath: '/',
@@ -46,8 +47,9 @@ module.exports = {
 
   plugins: [
     new OutputPlugin(),
+    new CleanWebpackPlugin(),
     new IgnoreNotFoundExportPlugin(),
-    isProduction ? new BundleAnalyzerPlugin() : null,
+    process.env.ANA && new BundleAnalyzerPlugin(),
     new HappyPack({
       id: 'ts',
       loaders: [
@@ -73,4 +75,25 @@ module.exports = {
       template: resolve(__dirname, './index.html'),
     }),
   ].filter(Boolean),
+  optimization: {
+    providedExports: true,
+    usedExports: true,
+    sideEffects: isProduction,
+    minimize: isProduction,
+    splitChunks: {
+      minChunks: 1,
+      minSize: 1,
+      chunks: 'all',
+      cacheGroups: {
+        sigi: {
+          minSize: 1,
+          minChunks: 1,
+          name: 'sigi',
+          test: /@sigi/,
+          priority: 100,
+          enforce: true,
+        },
+      },
+    },
+  },
 }
