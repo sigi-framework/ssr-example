@@ -1082,12 +1082,12 @@
     "@sigi/types" "^2.3.0"
     immer "^7.0.5"
 
-"@sigi/devtool@^2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@sigi/devtool/-/devtool-2.3.0.tgz#806ec0a2fe6405abd87f07098ef4c5580fd2c48b"
-  integrity sha512-3l8aow+RDomDdGZSMMsYVfugZ6QovcR2wjV0exBQzRceNr0y/+4dOeDfYnPW9IVfT6vqAfoUOBM6sHmft4aTiQ==
+"@sigi/devtool@^2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@sigi/devtool/-/devtool-2.3.1.tgz#675f5c9c63235dcbac782e6855c74aa857585251"
+  integrity sha512-DLus8m8JaJqKxCAoCwiQMMViwLN7H3hVEB+z0CGd1I2Hvk+EdOxDy9Aabh3slJuBOlBvhlxFTyOizIhrQbkEZQ==
   dependencies:
-    "@sigi/core" "^2.3.0"
+    "@sigi/core" "^2.3.1"
     "@sigi/types" "^2.3.0"
 
 "@sigi/di@^2.3.0", "@sigi/di@^2.3.1":
