@@ -1090,10 +1090,10 @@
     "@sigi/core" "^2.3.0"
     "@sigi/types" "^2.3.0"
 
-"@sigi/di@^2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.3.0.tgz#0d65b6fda9476292251b854c4993bf8e79846062"
-  integrity sha512-iO3AbkDi2P3ngk81CSrFHyJyaIR/CFaUBoqf0c6nfp7xorLV0xQzSeHg9wW+k0CEg8UK6N1b6aBZBTuPrQD6Ug==
+"@sigi/di@^2.3.0", "@sigi/di@^2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.3.1.tgz#5e79831acd0fdd95bc299afea54d1f22bb2928e2"
+  integrity sha512-GQXcKIwjYwc6np8JgsZuerS3N/x1FXlJ2pSPyUlXBI4kahrXU6SRf5Q0f8Izf+nZKiKTrEuivCGvTQUllOqmhw==
 
 "@sigi/react@^2.3.0":
   version "2.3.0"
