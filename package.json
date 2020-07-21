@@ -21,7 +21,7 @@
     "@types/react-dom": "^16.9.8",
     "@types/webpack": "^4.41.21",
     "@types/webpack-merge": "^4.1.5",
-    "@typescript-eslint/eslint-plugin": "^3.6.1",
+    "@typescript-eslint/eslint-plugin": "^3.7.0",
     "@typescript-eslint/parser": "^3.7.0",
     "clean-webpack-plugin": "^3.0.0",
     "emotion-ts-plugin": "^0.7.0",
