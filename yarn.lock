@@ -1074,7 +1074,7 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@sigi/core@^2.3.1", "@sigi/core@^2.4.0":
+"@sigi/core@^2.4.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.4.0.tgz#c382bf402e873e95c02376e1ee84dae8f6793dff"
   integrity sha512-t7aLD3c47fL174emjQIzd+zVleSu8UpvaV2yC31L3RNxmbqC1IlxVP0RJ3yF0c0klxR35bVYgQH/twumWsRXOw==
@@ -1083,13 +1083,13 @@
     "@sigi/types" "^2.4.0"
     immer "^7.0.7"
 
-"@sigi/devtool@^2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@sigi/devtool/-/devtool-2.3.1.tgz#675f5c9c63235dcbac782e6855c74aa857585251"
-  integrity sha512-DLus8m8JaJqKxCAoCwiQMMViwLN7H3hVEB+z0CGd1I2Hvk+EdOxDy9Aabh3slJuBOlBvhlxFTyOizIhrQbkEZQ==
+"@sigi/devtool@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@sigi/devtool/-/devtool-2.4.0.tgz#28a7929c66d31835a744a87a54783331d913f340"
+  integrity sha512-+S7AWi7MNUfnFpwI2hn/VXVDR7UKah6NG1Ax7svTKzubIdCHnG68tO0ug33pop7OBrXnm2upxi/DPvX7rUhbsw==
   dependencies:
-    "@sigi/core" "^2.3.1"
-    "@sigi/types" "^2.3.0"
+    "@sigi/core" "^2.4.0"
+    "@sigi/types" "^2.4.0"
 
 "@sigi/di@^2.3.1", "@sigi/di@^2.4.0":
   version "2.4.0"
@@ -1123,7 +1123,7 @@
   dependencies:
     "@sigi/types" "^2.4.0"
 
-"@sigi/types@^2.3.0", "@sigi/types@^2.4.0":
+"@sigi/types@^2.4.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@sigi/types/-/types-2.4.0.tgz#ff7e8fc8f4707baf03cfb56e9dcb9ce0feca40eb"
   integrity sha512-hCB7bK8LiLkvLAY64+qTrJMVyrF5m6eGWG7V6sftJoy4Sz4pNEq59hNgguC2gkMlybPjn7tDGUMCpKUoRPG/dg==
