@@ -27,7 +27,7 @@
     "url": "https://github.com/sigi-framework/ssr-example/issues"
   },
   "dependencies": {
-    "@emotion/core": "^10.0.34",
+    "@emotion/core": "^10.0.35",
     "@emotion/styled": "^10.0.27",
     "md5": "^2.3.0"
   },
