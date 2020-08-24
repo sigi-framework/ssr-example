@@ -37,7 +37,7 @@
     "husky": "^4.2.5",
     "lerna": "^3.22.1",
     "lint-staged": "^10.2.11",
-    "prettier": "^2.0.5",
+    "prettier": "^2.1.0",
     "source-map-loader": "^1.0.2",
     "ts-import-plugin": "^1.6.6",
     "ts-loader": "^8.0.2",
