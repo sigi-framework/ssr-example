@@ -1081,14 +1081,14 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@sigi/core@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.4.0.tgz#c382bf402e873e95c02376e1ee84dae8f6793dff"
-  integrity sha512-t7aLD3c47fL174emjQIzd+zVleSu8UpvaV2yC31L3RNxmbqC1IlxVP0RJ3yF0c0klxR35bVYgQH/twumWsRXOw==
+"@sigi/core@^2.4.0", "@sigi/core@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.4.1.tgz#6c745680f4e8c872a4c8d8dad9f3af29b87b4c77"
+  integrity sha512-4ZE+tv2zqoZpkk6YmplKn1bCblnlIRXl2zR43ZZHNPZto/cRS9+ACKqYN2awNr9PGlES1TKqk1Qe/+hdLqASyA==
   dependencies:
-    "@sigi/di" "^2.4.0"
+    "@sigi/di" "^2.4.1"
     "@sigi/types" "^2.4.0"
-    immer "^7.0.7"
+    immer "^7.0.8"
 
 "@sigi/devtool@^2.4.0":
   version "2.4.0"
@@ -1098,10 +1098,10 @@
     "@sigi/core" "^2.4.0"
     "@sigi/types" "^2.4.0"
 
-"@sigi/di@^2.3.1", "@sigi/di@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.4.0.tgz#bd31e7f938ddbafa6aeac418473464a7f7b4fee1"
-  integrity sha512-V4tIUgHdXlWEqpeEYxMG5spkcPgVCEGeGWgCzDIItJyl7zhM4BmAO4jXr//sL4a0snTOwKcA++zZtMFtGx7KEg==
+"@sigi/di@^2.3.1", "@sigi/di@^2.4.0", "@sigi/di@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.4.1.tgz#9c9a296184a56e01df7b4a871d7d041a38a45144"
+  integrity sha512-I1NxWcQiMKDh9PaELx70BZLadqIT0ednA5XxjzLbFHQXTixRGFbaYVWINcMiPQlzuq/RMvESudwMy+YT3FF2WA==
 
 "@sigi/react@^2.4.0":
   version "2.4.0"
@@ -4913,10 +4913,10 @@ ignore@^4.0.3, ignore@^4.0.6:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
   integrity sha512-cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg==
 
-immer@^7.0.7:
-  version "7.0.7"
-  resolved "https://registry.yarnpkg.com/immer/-/immer-7.0.7.tgz#9dfe713d49bf871cc59aedfce59b1992fa37a977"
-  integrity sha512-Q8yYwVADJXrNfp1ZUAh4XDHkcoE3wpdpb4mC5abDSajs2EbW8+cGdPyAnglMyLnm7EF6ojD2xBFX7L5i4TIytw==
+immer@^7.0.7, immer@^7.0.8:
+  version "7.0.8"
+  resolved "https://registry.yarnpkg.com/immer/-/immer-7.0.8.tgz#41dcbc5669a76500d017bef3ad0d03ce0a1d7c1e"
+  integrity sha512-XnpIN8PXBBaOD43U8Z17qg6RQiKQYGDGGCIbz1ixmLGwBkSWwmrmx5X7d+hTtXDM8ur7m5OdLE0PiO+y5RB3pw==
 
 import-fresh@^2.0.0:
   version "2.0.0"
