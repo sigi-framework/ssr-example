@@ -1,5 +1,5 @@
 const { resolve } = require('path')
-const mergeWebpack = require('webpack-merge')
+const { merge } = require('webpack-merge')
 const nodeExternals = require('webpack-node-externals')
 
 const commonWebpackConfig = require('./webpack.config')
@@ -7,7 +7,7 @@ const commonWebpackConfig = require('./webpack.config')
 /**
  * @type {import('webpack').Configuration}
  */
-module.exports = mergeWebpack(commonWebpackConfig, {
+module.exports = merge(commonWebpackConfig, {
   target: 'node',
   devtool: '#@source-map',
   node: false,
@@ -20,7 +20,7 @@ module.exports = mergeWebpack(commonWebpackConfig, {
 
   externals: nodeExternals({
     modulesDir: resolve(__dirname, 'node_modules'),
-    whitelist: [
+    allowlist: [
       /\.(eot|woff|woff2|ttf|otf)$/,
       /\.(svg|png|jpg|jpeg|gif|ico|webm)$/,
       /\.(mp4|mp3|ogg|swf|webp)$/,
