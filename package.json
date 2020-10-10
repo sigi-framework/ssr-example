@@ -62,7 +62,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "rxjs": "^6.6.3",
-    "tslib": "^2.0.2"
+    "tslib": "^2.0.3"
   },
   "lint-staged": {
     "*.@(js|ts|tsx)": [
