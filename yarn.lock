@@ -1976,12 +1976,12 @@
     "@sigi/types" "^2.4.0"
     immer "^7.0.9"
 
-"@sigi/devtool@^2.4.1":
-  version "2.4.1"
-  resolved "https://registry.npmjs.org/@sigi/devtool/-/devtool-2.4.1.tgz#83aecc326ad4056954548be640cf55076bc67c3b"
-  integrity sha512-v+KO8ADmhZn2dUXEJbdpZ2dGwnG9uRzkL7R3vvSvm8DAVkaST8RA0qNWCEU286DKHuUEYBO9O5OFFREoVcW12w==
+"@sigi/devtool@^2.4.2":
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/@sigi/devtool/-/devtool-2.4.2.tgz#4cb48ec5c4d9f9b87947b88e46acbee2ce38a478"
+  integrity sha512-mDnk8s6dBppsEtIvzKkur8JnRbNXjN2d1Umklk1D6VxDLUDscUwzNjdfp1tvrckl+5ev1GN9Jha8AssTdVJ3sQ==
   dependencies:
-    "@sigi/core" "^2.4.1"
+    "@sigi/core" "^2.4.2"
     "@sigi/types" "^2.4.0"
 
 "@sigi/di@^2.3.1", "@sigi/di@^2.4.1":
