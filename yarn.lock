@@ -1974,14 +1974,14 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@sigi/core@^2.4.0", "@sigi/core@^2.4.1":
-  version "2.4.1"
-  resolved "https://registry.npmjs.org/@sigi/core/-/core-2.4.1.tgz#6c745680f4e8c872a4c8d8dad9f3af29b87b4c77"
-  integrity sha512-4ZE+tv2zqoZpkk6YmplKn1bCblnlIRXl2zR43ZZHNPZto/cRS9+ACKqYN2awNr9PGlES1TKqk1Qe/+hdLqASyA==
+"@sigi/core@^2.4.0", "@sigi/core@^2.4.1", "@sigi/core@^2.4.2":
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.4.2.tgz#38862d9928b725a4914b95be00ba5b4e0e715fcf"
+  integrity sha512-ztIWrPfp4eoMAm/s7ITlI8r66Wj6wcWQgYrBLUzkmNSY5s6Zun/eQeSOve0PJcjFQiH+miidaJkAPnvSECkvrw==
   dependencies:
     "@sigi/di" "^2.4.1"
     "@sigi/types" "^2.4.0"
-    immer "^7.0.8"
+    immer "^7.0.9"
 
 "@sigi/devtool@^2.4.1":
   version "2.4.1"
@@ -2006,15 +2006,15 @@
     "@sigi/ssr" "^2.4.1"
     "@sigi/types" "^2.4.0"
 
-"@sigi/ssr@^2.4.1":
-  version "2.4.1"
-  resolved "https://registry.npmjs.org/@sigi/ssr/-/ssr-2.4.1.tgz#898f67380c610b6b1eed05d889276e3648d1ce5a"
-  integrity sha512-KHkStzbT5AnxucA0iI9gN94zkVjh2uU+4pV0dXeJCOTH0fHNa84Ld94o3nO8vLuEnqKx9c4tCpbYEiCkoO+l2w==
+"@sigi/ssr@^2.4.1", "@sigi/ssr@^2.4.2":
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/@sigi/ssr/-/ssr-2.4.2.tgz#6cc661d5a221b57d5006480e860e7e9075629758"
+  integrity sha512-5FZmftK8wcOT2TbS0+7vO30EqQvGJ0wR1UrsneAUPbTE4t+lPFxy95hAEdBwbg825SuVx6Vr2kQtmfb4RFoKhw==
   dependencies:
-    "@sigi/core" "^2.4.1"
+    "@sigi/core" "^2.4.2"
     "@sigi/di" "^2.4.1"
     "@sigi/types" "^2.4.0"
-    serialize-javascript "^4.0.0"
+    serialize-javascript "^5.0.1"
 
 "@sigi/ts-plugin@^2.4.0":
   version "2.4.0"
@@ -6184,7 +6184,7 @@ ignore@^5.1.4:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.1.8.tgz#f150a8b50a34289b33e22f5889abd4d8016f0e57"
   integrity sha512-BMpfD7PpiETpBl/A6S498BaIJ6Y/ABT93ETbby2fP00v4EbvPBXWEoaR1UBPKs3iR53pJY7EtZk5KACI57i1Uw==
 
-immer@^7.0.8, immer@^7.0.9:
+immer@^7.0.9:
   version "7.0.9"
   resolved "https://registry.yarnpkg.com/immer/-/immer-7.0.9.tgz#28e7552c21d39dd76feccd2b800b7bc86ee4a62e"
   integrity sha512-Vs/gxoM4DqNAYR7pugIxi0Xc8XAun/uy7AQu4fLLqaTBHxjOP9pJ266Q9MWA/ly4z6rAFZbvViOtihxUZ7O28A==
@@ -9860,13 +9860,6 @@ serialize-error@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/serialize-error/-/serialize-error-2.1.0.tgz#50b679d5635cdf84667bdc8e59af4e5b81d5f60a"
   integrity sha1-ULZ51WNc34Rme9yOWa9OW4HV9go=
-
-serialize-javascript@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npmjs.org/serialize-javascript/-/serialize-javascript-4.0.0.tgz#b525e1238489a5ecfc42afacc3fe99e666f4b1aa"
-  integrity sha512-GaNA54380uFefWghODBWEGisLZFj00nS5ACs6yHa9nLqlLpVLO8ChDGeKRjZnV4Nh4n0Qi7nhYZD/9fCPzEqkw==
-  dependencies:
-    randombytes "^2.1.0"
 
 serialize-javascript@^5.0.1:
   version "5.0.1"
