@@ -3369,17 +3369,17 @@ emojis-list@^3.0.0:
   resolved "https://registry.npmjs.org/emojis-list/-/emojis-list-3.0.0.tgz#5570662046ad29e2e916e71aae260abdff4f6a78"
   integrity sha512-/kyM18EfinwXZbno9FyUGeFh87KC8HRQBQGildHZbEuRyWFOmv1U10o9BBp8XVZDVNNuQKyIGIu5ZYAAXJ0V2Q==
 
-emotion-ts-plugin@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.npmjs.org/emotion-ts-plugin/-/emotion-ts-plugin-0.7.0.tgz#cb94c323cf365ccc266c943ca0d8a8051354f9dc"
-  integrity sha512-ZK5yknMaQU10YCHFN1KzpLpkcASQmA2OCgMUvZKNr+qsUuR4D5g8VBc11fLyc/4B1HAmLDx3FLn86CAKcGc3NQ==
+emotion-ts-plugin@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/emotion-ts-plugin/-/emotion-ts-plugin-1.0.0.tgz#3c751f325fcd9dbdcca462be2624f5b7821d4363"
+  integrity sha512-F8b2fU5o8/jsfjxo13kK8R726B2/6BodkfxtxhTVQ4uRquG2acZaC6OH03KKlSVm1UEFko+Ib+cN2z1mzHmTDg==
   dependencies:
     "@emotion/hash" "^0.8.0"
     convert-source-map "^1.7.0"
     find-root "^1.1.0"
-    lodash "^4.17.15"
+    lodash "^4.17.20"
     source-map "^0.7.3"
-    tslib "^1.10.0"
+    tslib "^2.0.3"
 
 encodeurl@~1.0.2:
   version "1.0.2"
