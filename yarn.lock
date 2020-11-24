@@ -1075,7 +1075,7 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@sigi/core@^2.4.0", "@sigi/core@^2.4.2", "@sigi/core@^2.4.3":
+"@sigi/core@^2.4.0", "@sigi/core@^2.4.3":
   version "2.4.3"
   resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.4.3.tgz#e2776f908e6b37e675fc8fa3147e94bc292905f3"
   integrity sha512-tfvm8OnPmH1ZmRYyyLkb/vj0/0+cr/rmFrO0Dyq0ik35JbWIVu6DY8VPQ2ApzMvoBpTPzjtEePV8694jcPZabg==
@@ -5406,10 +5406,10 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
-lint-staged@^10.5.1:
-  version "10.5.1"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-10.5.1.tgz#901e915c2360072dded0e7d752a0d9a49e079daa"
-  integrity sha512-fTkTGFtwFIJJzn/PbUO3RXyEBHIhbfYBE7+rJyLcOXabViaO/h6OslgeK6zpeUtzkDrzkgyAYDTLAwx6JzDTHw==
+lint-staged@^10.5.2:
+  version "10.5.2"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-10.5.2.tgz#acfaa0093af3262aee3130b2e22438941530bdd1"
+  integrity sha512-e8AYR1TDlzwB8VVd38Xu2lXDZf6BcshVqKVuBQThDJRaJLobqKnpbm4dkwJ2puypQNbLr9KF/9mfA649mAGvjA==
   dependencies:
     chalk "^4.1.0"
     cli-truncate "^2.1.0"
