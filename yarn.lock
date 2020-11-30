@@ -1075,7 +1075,7 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@sigi/core@^2.4.0", "@sigi/core@^2.4.3", "@sigi/core@^2.4.4":
+"@sigi/core@^2.4.0", "@sigi/core@^2.4.4":
   version "2.4.4"
   resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.4.4.tgz#c6b2d7a5678028a6a1cc845d080478ffec1ff2b3"
   integrity sha512-MvmkeCE7QuhU4Cd1y+ZTRgmTazACKk4ZBMWpuS1LsTNP/PeLAR4pvxw415CGFPq/IGlC1l362boQdQ86awcCRA==
@@ -1092,27 +1092,22 @@
     "@sigi/core" "^2.4.4"
     "@sigi/types" "^2.4.0"
 
-"@sigi/di@^2.3.1", "@sigi/di@^2.4.1", "@sigi/di@^2.4.4":
+"@sigi/di@^2.3.1", "@sigi/di@^2.4.4":
   version "2.4.4"
   resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.4.4.tgz#74c671838003e577f2d4f00bce7115b20f8fee55"
   integrity sha512-dl/OJA66+Wu7yNi2Ap+94BZtKqIHEZ7pjUeVSc7Xvluw+6zLVuTsfHSDV+jw5xz5Fx0S2sRikpIuHzTGKWrvMA==
 
-"@sigi/di@^2.4.4":
+"@sigi/react@^2.4.4":
   version "2.4.4"
-  resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.4.4.tgz#74c671838003e577f2d4f00bce7115b20f8fee55"
-  integrity sha512-dl/OJA66+Wu7yNi2Ap+94BZtKqIHEZ7pjUeVSc7Xvluw+6zLVuTsfHSDV+jw5xz5Fx0S2sRikpIuHzTGKWrvMA==
-
-"@sigi/react@^2.4.3":
-  version "2.4.3"
-  resolved "https://registry.yarnpkg.com/@sigi/react/-/react-2.4.3.tgz#c6b3f1c52c2c638e1785d07a3423cbbb5dee7399"
-  integrity sha512-OXuIADIX7LSYlbxzzFMRkeli8WgDqoMYVE1EOGzpsKodPkcOOfy5iPzT9CKUAIBriHZhL8Xos5fDvcljr8blBw==
+  resolved "https://registry.yarnpkg.com/@sigi/react/-/react-2.4.4.tgz#a2582bf1a3ac23a1f5e20fbcf93096612a454e58"
+  integrity sha512-dm9hewfnwPwkJHwYvqsBoWidslMiif9gL9Z7XOi0qPC0i3pQQjiKEmVO80fTyzhVwQJKUbvkrI019PAz3IRm/g==
   dependencies:
-    "@sigi/core" "^2.4.3"
-    "@sigi/di" "^2.4.1"
-    "@sigi/ssr" "^2.4.3"
+    "@sigi/core" "^2.4.4"
+    "@sigi/di" "^2.4.4"
+    "@sigi/ssr" "^2.4.4"
     "@sigi/types" "^2.4.0"
 
-"@sigi/ssr@^2.4.3", "@sigi/ssr@^2.4.4":
+"@sigi/ssr@^2.4.4":
   version "2.4.4"
   resolved "https://registry.yarnpkg.com/@sigi/ssr/-/ssr-2.4.4.tgz#19d618b1aba6ccb1251a09452252eaac76f8fed8"
   integrity sha512-ZDOjooxM34jOekt1c9l8pBRpvv1FL6FjZLvUBpkDsLKgoiIS0w7S2Y48AFSP87goyyhjuc+U3IvtYuRlBP53mA==
