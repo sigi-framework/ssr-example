@@ -1092,10 +1092,10 @@
     "@sigi/core" "^2.4.3"
     "@sigi/types" "^2.4.0"
 
-"@sigi/di@^2.3.1", "@sigi/di@^2.4.1":
-  version "2.4.1"
-  resolved "https://registry.npmjs.org/@sigi/di/-/di-2.4.1.tgz#9c9a296184a56e01df7b4a871d7d041a38a45144"
-  integrity sha512-I1NxWcQiMKDh9PaELx70BZLadqIT0ednA5XxjzLbFHQXTixRGFbaYVWINcMiPQlzuq/RMvESudwMy+YT3FF2WA==
+"@sigi/di@^2.4.1", "@sigi/di@^2.4.4":
+  version "2.4.4"
+  resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.4.4.tgz#74c671838003e577f2d4f00bce7115b20f8fee55"
+  integrity sha512-dl/OJA66+Wu7yNi2Ap+94BZtKqIHEZ7pjUeVSc7Xvluw+6zLVuTsfHSDV+jw5xz5Fx0S2sRikpIuHzTGKWrvMA==
 
 "@sigi/react@^2.4.3":
   version "2.4.3"
