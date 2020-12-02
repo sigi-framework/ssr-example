@@ -8743,12 +8743,12 @@ trim-off-newlines@^1.0.0:
   resolved "https://registry.npmjs.org/trim-off-newlines/-/trim-off-newlines-1.0.1.tgz#9f9ba9d9efa8764c387698bcbfeb2c848f11adb3"
   integrity sha1-n5up2e+odkw4dpi8v+sshI8RrbM=
 
-ts-import-plugin@^1.6.6:
-  version "1.6.6"
-  resolved "https://registry.npmjs.org/ts-import-plugin/-/ts-import-plugin-1.6.6.tgz#d348f0e16bca7ffef74cc582cee10ad0e73204bf"
-  integrity sha512-u0c1YsVlKIALIkei0qqsCY3CcfOl+WdOKy0keTQM5T75jd2eLfuLJwsnhtHxstW9Ha51kZADHXj4EfP+Z0C+tQ==
+ts-import-plugin@^1.6.7:
+  version "1.6.7"
+  resolved "https://registry.yarnpkg.com/ts-import-plugin/-/ts-import-plugin-1.6.7.tgz#219cabef4a8b50d8321ac750758837378492914c"
+  integrity sha512-6qbRME6Cj9RzhlqXGc1275lAK3IEJjmwYPmX0/jVPBwtdoDqHVbdRURYcvR195uFi8ZpBqT2WjL4E56buPQ4sg==
   dependencies:
-    tslib "^1.11.1"
+    tslib "^2.0.3"
 
 ts-loader@^8.0.11:
   version "8.0.11"
@@ -8782,7 +8782,7 @@ tsconfig-paths@^3.9.0:
     minimist "^1.2.0"
     strip-bom "^3.0.0"
 
-tslib@^1.10.0, tslib@^1.11.1, tslib@^1.8.1, tslib@^1.9.0:
+tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.13.0"
   resolved "https://registry.npmjs.org/tslib/-/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
   integrity sha512-i/6DQjL8Xf3be4K/E6Wgpekn5Qasl1usyw++dAA35Ue5orEn65VIxOA+YvNNl9HV3qv70T7CNwjODHZrLwvd1Q==
