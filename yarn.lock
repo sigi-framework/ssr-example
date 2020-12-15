@@ -1070,7 +1070,7 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@sigi/core@^2.4.0", "@sigi/core@^2.4.4", "@sigi/core@^2.4.5":
+"@sigi/core@^2.4.0", "@sigi/core@^2.4.5":
   version "2.4.5"
   resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.4.5.tgz#29c597a053ae3c3425622e5ab7309dc00c3fb595"
   integrity sha512-BUx/oqLEcK5XVKdHFz1xbUIk99bW3pzBBlvm6etvCUbnV9xVjOYIMncNmKVotiKk481Z64utE1heSUTlFlFNng==
@@ -1092,17 +1092,17 @@
   resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.4.4.tgz#74c671838003e577f2d4f00bce7115b20f8fee55"
   integrity sha512-dl/OJA66+Wu7yNi2Ap+94BZtKqIHEZ7pjUeVSc7Xvluw+6zLVuTsfHSDV+jw5xz5Fx0S2sRikpIuHzTGKWrvMA==
 
-"@sigi/react@^2.4.4":
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/@sigi/react/-/react-2.4.4.tgz#a2582bf1a3ac23a1f5e20fbcf93096612a454e58"
-  integrity sha512-dm9hewfnwPwkJHwYvqsBoWidslMiif9gL9Z7XOi0qPC0i3pQQjiKEmVO80fTyzhVwQJKUbvkrI019PAz3IRm/g==
+"@sigi/react@^2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@sigi/react/-/react-2.4.5.tgz#ae0738b0896558231f14764542a7487266879e3f"
+  integrity sha512-aQ3CtNFaX+uDMOt/XYs18Gjpo7g9ll87BsME6eWdhNTskemr2zeqe7a66e6rmPC6sLWiMaDznc04zz0nz/2Qtg==
   dependencies:
-    "@sigi/core" "^2.4.4"
+    "@sigi/core" "^2.4.5"
     "@sigi/di" "^2.4.4"
-    "@sigi/ssr" "^2.4.4"
-    "@sigi/types" "^2.4.0"
+    "@sigi/ssr" "^2.4.5"
+    "@sigi/types" "^2.4.5"
 
-"@sigi/ssr@^2.4.4", "@sigi/ssr@^2.4.5":
+"@sigi/ssr@^2.4.5":
   version "2.4.5"
   resolved "https://registry.yarnpkg.com/@sigi/ssr/-/ssr-2.4.5.tgz#66d1ff253b64686a2a30386c1cf1881616bb77e8"
   integrity sha512-yzIXh9Zt/hzRq1nAsS55GgLs4dLZNVrH6qgpXQk429N2T/nGVvQVrYxasGWKo8AYInz4ib5cwedEuE3re49a6g==
@@ -1119,7 +1119,7 @@
   dependencies:
     "@sigi/types" "^2.4.5"
 
-"@sigi/types@^2.4.0", "@sigi/types@^2.4.5":
+"@sigi/types@^2.4.5":
   version "2.4.5"
   resolved "https://registry.yarnpkg.com/@sigi/types/-/types-2.4.5.tgz#8fb7987bb42e6bedbe6916e0e190af8639d41a65"
   integrity sha512-EfeGaeWwBsgTiVoFiFnIWS1lUZRTguvs8EVQ9pLA4knadSSYSTQDrHE52M77oAmgBjs0D7jD0QEj1rEu0f3O2Q==
