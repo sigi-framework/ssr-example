@@ -1070,13 +1070,13 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@sigi/core@^2.4.0", "@sigi/core@^2.4.4":
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.4.4.tgz#c6b2d7a5678028a6a1cc845d080478ffec1ff2b3"
-  integrity sha512-MvmkeCE7QuhU4Cd1y+ZTRgmTazACKk4ZBMWpuS1LsTNP/PeLAR4pvxw415CGFPq/IGlC1l362boQdQ86awcCRA==
+"@sigi/core@^2.4.0", "@sigi/core@^2.4.4", "@sigi/core@^2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.4.5.tgz#29c597a053ae3c3425622e5ab7309dc00c3fb595"
+  integrity sha512-BUx/oqLEcK5XVKdHFz1xbUIk99bW3pzBBlvm6etvCUbnV9xVjOYIMncNmKVotiKk481Z64utE1heSUTlFlFNng==
   dependencies:
     "@sigi/di" "^2.4.4"
-    "@sigi/types" "^2.4.0"
+    "@sigi/types" "^2.4.5"
     immer "^8.0.0"
 
 "@sigi/devtool@^2.4.4":
@@ -1102,14 +1102,14 @@
     "@sigi/ssr" "^2.4.4"
     "@sigi/types" "^2.4.0"
 
-"@sigi/ssr@^2.4.4":
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/@sigi/ssr/-/ssr-2.4.4.tgz#19d618b1aba6ccb1251a09452252eaac76f8fed8"
-  integrity sha512-ZDOjooxM34jOekt1c9l8pBRpvv1FL6FjZLvUBpkDsLKgoiIS0w7S2Y48AFSP87goyyhjuc+U3IvtYuRlBP53mA==
+"@sigi/ssr@^2.4.4", "@sigi/ssr@^2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@sigi/ssr/-/ssr-2.4.5.tgz#66d1ff253b64686a2a30386c1cf1881616bb77e8"
+  integrity sha512-yzIXh9Zt/hzRq1nAsS55GgLs4dLZNVrH6qgpXQk429N2T/nGVvQVrYxasGWKo8AYInz4ib5cwedEuE3re49a6g==
   dependencies:
-    "@sigi/core" "^2.4.4"
+    "@sigi/core" "^2.4.5"
     "@sigi/di" "^2.4.4"
-    "@sigi/types" "^2.4.0"
+    "@sigi/types" "^2.4.5"
     serialize-javascript "^5.0.1"
 
 "@sigi/ts-plugin@^2.4.0":
@@ -1119,10 +1119,10 @@
   dependencies:
     "@sigi/types" "^2.4.0"
 
-"@sigi/types@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.npmjs.org/@sigi/types/-/types-2.4.0.tgz#ff7e8fc8f4707baf03cfb56e9dcb9ce0feca40eb"
-  integrity sha512-hCB7bK8LiLkvLAY64+qTrJMVyrF5m6eGWG7V6sftJoy4Sz4pNEq59hNgguC2gkMlybPjn7tDGUMCpKUoRPG/dg==
+"@sigi/types@^2.4.0", "@sigi/types@^2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@sigi/types/-/types-2.4.5.tgz#8fb7987bb42e6bedbe6916e0e190af8639d41a65"
+  integrity sha512-EfeGaeWwBsgTiVoFiFnIWS1lUZRTguvs8EVQ9pLA4knadSSYSTQDrHE52M77oAmgBjs0D7jD0QEj1rEu0f3O2Q==
 
 "@types/anymatch@*":
   version "1.3.1"
