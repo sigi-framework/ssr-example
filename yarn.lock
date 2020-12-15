@@ -1112,12 +1112,12 @@
     "@sigi/types" "^2.4.5"
     serialize-javascript "^5.0.1"
 
-"@sigi/ts-plugin@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.npmjs.org/@sigi/ts-plugin/-/ts-plugin-2.4.0.tgz#7ef75006392a83a83dcb6dd327c7bbd20354b202"
-  integrity sha512-3d9YpJvCN+OsaUHavkoDOM/ECoOpOOErdVBnlcSHZkHlLKEDNG1X0+Lu4rgIKtW2qmMYWp3HNWth1XrMaWkyNA==
+"@sigi/ts-plugin@^2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@sigi/ts-plugin/-/ts-plugin-2.4.5.tgz#3f8d4a8159a9b98ff78d79f0b3b6fca94376449e"
+  integrity sha512-V73xS9E95VkFMSobAEzC58HQNDnOkO9/Q21rIfRyibcI/FaBUhKbjpQ6hqRgafG4fhuPXC9BXNMUDveNjHHMqA==
   dependencies:
-    "@sigi/types" "^2.4.0"
+    "@sigi/types" "^2.4.5"
 
 "@sigi/types@^2.4.0", "@sigi/types@^2.4.5":
   version "2.4.5"
