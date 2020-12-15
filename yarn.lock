@@ -1112,17 +1112,17 @@
     "@sigi/types" "^2.4.0"
     serialize-javascript "^5.0.1"
 
-"@sigi/ts-plugin@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.npmjs.org/@sigi/ts-plugin/-/ts-plugin-2.4.0.tgz#7ef75006392a83a83dcb6dd327c7bbd20354b202"
-  integrity sha512-3d9YpJvCN+OsaUHavkoDOM/ECoOpOOErdVBnlcSHZkHlLKEDNG1X0+Lu4rgIKtW2qmMYWp3HNWth1XrMaWkyNA==
+"@sigi/ts-plugin@^2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@sigi/ts-plugin/-/ts-plugin-2.4.5.tgz#3f8d4a8159a9b98ff78d79f0b3b6fca94376449e"
+  integrity sha512-V73xS9E95VkFMSobAEzC58HQNDnOkO9/Q21rIfRyibcI/FaBUhKbjpQ6hqRgafG4fhuPXC9BXNMUDveNjHHMqA==
   dependencies:
-    "@sigi/types" "^2.4.0"
+    "@sigi/types" "^2.4.5"
 
-"@sigi/types@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.npmjs.org/@sigi/types/-/types-2.4.0.tgz#ff7e8fc8f4707baf03cfb56e9dcb9ce0feca40eb"
-  integrity sha512-hCB7bK8LiLkvLAY64+qTrJMVyrF5m6eGWG7V6sftJoy4Sz4pNEq59hNgguC2gkMlybPjn7tDGUMCpKUoRPG/dg==
+"@sigi/types@^2.4.0", "@sigi/types@^2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@sigi/types/-/types-2.4.5.tgz#8fb7987bb42e6bedbe6916e0e190af8639d41a65"
+  integrity sha512-EfeGaeWwBsgTiVoFiFnIWS1lUZRTguvs8EVQ9pLA4knadSSYSTQDrHE52M77oAmgBjs0D7jD0QEj1rEu0f3O2Q==
 
 "@types/anymatch@*":
   version "1.3.1"
