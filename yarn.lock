@@ -1070,22 +1070,22 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@sigi/core@^2.4.0", "@sigi/core@^2.4.4":
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.4.4.tgz#c6b2d7a5678028a6a1cc845d080478ffec1ff2b3"
-  integrity sha512-MvmkeCE7QuhU4Cd1y+ZTRgmTazACKk4ZBMWpuS1LsTNP/PeLAR4pvxw415CGFPq/IGlC1l362boQdQ86awcCRA==
+"@sigi/core@^2.4.0", "@sigi/core@^2.4.4", "@sigi/core@^2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.4.5.tgz#29c597a053ae3c3425622e5ab7309dc00c3fb595"
+  integrity sha512-BUx/oqLEcK5XVKdHFz1xbUIk99bW3pzBBlvm6etvCUbnV9xVjOYIMncNmKVotiKk481Z64utE1heSUTlFlFNng==
   dependencies:
     "@sigi/di" "^2.4.4"
-    "@sigi/types" "^2.4.0"
+    "@sigi/types" "^2.4.5"
     immer "^8.0.0"
 
-"@sigi/devtool@^2.4.4":
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/@sigi/devtool/-/devtool-2.4.4.tgz#10b7799361fc1fe27fb6b63fe6a1823afd27e8e2"
-  integrity sha512-LzF1D7Dzu2u9kDsw6xE4VViTguetnL+MWqFSRuSLDSY/dtlyz4tqjTs5EhKjNKaDHkW9tjvUz9QDqW3zuasgpw==
+"@sigi/devtool@^2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@sigi/devtool/-/devtool-2.4.5.tgz#95dec4f7c1c3e0bc30237b6e21350e25be66d6ee"
+  integrity sha512-JXKs5yEAH6rgms6YZPpYHC6T/98MAUr8NQam+9RBGHmn9KlAd8/XEn54wmaPK9nCcrIABpvYXv5nNgyho4I2TQ==
   dependencies:
-    "@sigi/core" "^2.4.4"
-    "@sigi/types" "^2.4.0"
+    "@sigi/core" "^2.4.5"
+    "@sigi/types" "^2.4.5"
 
 "@sigi/di@^2.3.1", "@sigi/di@^2.4.4":
   version "2.4.4"
@@ -1119,10 +1119,10 @@
   dependencies:
     "@sigi/types" "^2.4.0"
 
-"@sigi/types@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.npmjs.org/@sigi/types/-/types-2.4.0.tgz#ff7e8fc8f4707baf03cfb56e9dcb9ce0feca40eb"
-  integrity sha512-hCB7bK8LiLkvLAY64+qTrJMVyrF5m6eGWG7V6sftJoy4Sz4pNEq59hNgguC2gkMlybPjn7tDGUMCpKUoRPG/dg==
+"@sigi/types@^2.4.0", "@sigi/types@^2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@sigi/types/-/types-2.4.5.tgz#8fb7987bb42e6bedbe6916e0e190af8639d41a65"
+  integrity sha512-EfeGaeWwBsgTiVoFiFnIWS1lUZRTguvs8EVQ9pLA4knadSSYSTQDrHE52M77oAmgBjs0D7jD0QEj1rEu0f3O2Q==
 
 "@types/anymatch@*":
   version "1.3.1"
