@@ -1112,12 +1112,12 @@
     "@sigi/ssr" "^2.5.0"
     "@sigi/types" "^2.4.5"
 
-"@sigi/ssr@^2.4.5", "@sigi/ssr@^2.5.0":
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/@sigi/ssr/-/ssr-2.5.0.tgz#707066d8eb31a8760346a64ced6cc0ff8866ea06"
-  integrity sha512-4kC2hcC6+6TLMbz+8KQGbzL9z93y5i/+1q5G/AHl1zo9OTqEyMIrAM4SU8PAJtb9xpcFcL7T9YUfF0Al1zGxHw==
+"@sigi/ssr@^2.5.0", "@sigi/ssr@^2.5.1":
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@sigi/ssr/-/ssr-2.5.1.tgz#82f9c6ba01f2b4214fd9e35f39819aee5afc497b"
+  integrity sha512-zCtKr1t2THsK6OIar+HJZoDPmSsOX9iW6PJ/se4l+Bc43RgsaEemAUZdkf99ga60cplf0EGPTzW1ca1d0UXiVw==
   dependencies:
-    "@sigi/core" "^2.4.5"
+    "@sigi/core" "^2.5.1"
     "@sigi/di" "^2.4.4"
     "@sigi/types" "^2.4.5"
     serialize-javascript "^5.0.1"
