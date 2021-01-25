@@ -55,7 +55,7 @@
     "@sigi/core": "^2.4.0",
     "@sigi/devtool": "^2.5.1",
     "@sigi/di": "^2.3.1",
-    "@sigi/react": "^2.5.0",
+    "@sigi/react": "^2.5.1",
     "@sigi/ssr": "^2.5.1",
     "antd": "^4.10.3",
     "immer": "^8.0.1",
