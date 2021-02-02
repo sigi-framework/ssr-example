@@ -1122,10 +1122,10 @@
     "@sigi/types" "^2.4.5"
     serialize-javascript "^5.0.1"
 
-"@sigi/ts-plugin@^2.4.5":
-  version "2.4.5"
-  resolved "https://registry.yarnpkg.com/@sigi/ts-plugin/-/ts-plugin-2.4.5.tgz#3f8d4a8159a9b98ff78d79f0b3b6fca94376449e"
-  integrity sha512-V73xS9E95VkFMSobAEzC58HQNDnOkO9/Q21rIfRyibcI/FaBUhKbjpQ6hqRgafG4fhuPXC9BXNMUDveNjHHMqA==
+"@sigi/ts-plugin@^2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@sigi/ts-plugin/-/ts-plugin-2.6.0.tgz#b0faa55be21f84546cdc2c054c1e7e8a460a1107"
+  integrity sha512-EdxTH/VO71w6tQERflj6mjI4fLqpNGb3uSlMIGjjvaTEwRLWtDdn5qV4/IW0d9vah8vzW5fxu15wOnKEwe8fCw==
   dependencies:
     "@sigi/types" "^2.4.5"
 
