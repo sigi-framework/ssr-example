@@ -1112,10 +1112,10 @@
     "@sigi/ssr" "^2.5.1"
     "@sigi/types" "^2.4.5"
 
-"@sigi/ssr@^2.5.1":
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/@sigi/ssr/-/ssr-2.5.1.tgz#82f9c6ba01f2b4214fd9e35f39819aee5afc497b"
-  integrity sha512-zCtKr1t2THsK6OIar+HJZoDPmSsOX9iW6PJ/se4l+Bc43RgsaEemAUZdkf99ga60cplf0EGPTzW1ca1d0UXiVw==
+"@sigi/ssr@^2.5.1", "@sigi/ssr@^2.7.0":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@sigi/ssr/-/ssr-2.7.0.tgz#17a8a7edd35607f5d80ba9f49732ae07c2921429"
+  integrity sha512-r215FwE3MlFGEkdsqdLccgFQ1PQ5dF/pO629h1k6DAIALO6RBez9KO1VI4XKgk5BHA2pfSxCChrvuRaVHSeGEA==
   dependencies:
     "@sigi/core" "^2.5.1"
     "@sigi/di" "^2.4.4"
