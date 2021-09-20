@@ -1080,22 +1080,30 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.11.tgz#aeb16f50649a91af79dbe36574b66d0f9e4d9f71"
   integrity sha512-3NsZsJIA/22P3QUyrEDNA2D133H4j224twJrdipXN38dpnIOzAbUDtOwkcJ5pXmn75w7LSQDjA4tO9dm1XlqlA==
 
-"@sigi/core@^2.4.0", "@sigi/core@^2.5.1":
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.5.1.tgz#90b0ba22bde69bcd28f0f308310d6b19ad1a97f6"
-  integrity sha512-40JcSjyXj9Hf4q99pJLgaiWgKzrEoiNYXq+sClgIdnJYFTQqOUmCdB7gS1/hW9EIBfAq1FHqBQY+u9mdXU0WTA==
+"@sigi/core@^2.12.1", "@sigi/core@^2.4.0", "@sigi/core@^2.5.1":
+  version "2.12.1"
+  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.12.1.tgz#332a2763799e0c58e478474115e624d1a94d2121"
+  integrity sha512-YidXFtJNyiuBnhQFWbeoqezATN6KcvW2uL7Jhm3a9bw+gyDZJ9BbZDRx02kkhnvHXhjNMccDDxYwJZCYb8Ghdg==
   dependencies:
-    "@sigi/di" "^2.4.4"
-    "@sigi/types" "^2.4.5"
-    immer "^8.0.1"
+    "@sigi/di" "^2.11.3"
+    "@sigi/types" "^2.11.3"
+    tslib "^2.3.1"
 
-"@sigi/devtool@^2.5.1":
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/@sigi/devtool/-/devtool-2.5.1.tgz#5b1a2dc45cf0ec9a7589713ffd5b63e775e8fe3a"
-  integrity sha512-ScEu3IvCjBN47M7FqMhAMxfEbAWXk1t3+cB4+Kev1XQz53jyFrqDl2mNMk1bu/gRmNuQ/czRTj7iY1DWvwXXUg==
+"@sigi/devtool@^2.12.1":
+  version "2.12.1"
+  resolved "https://registry.yarnpkg.com/@sigi/devtool/-/devtool-2.12.1.tgz#2f33f8f020cb466d549d537c24d1f1938b301820"
+  integrity sha512-H/EEFFgAIpRqQGX6L/shw3fxTavUDqz4YBJ65HWJ1nN+oWZVEGYuXDG75zbA8N+oM7oC/KBkITbrrIBh5kQ8Ig==
   dependencies:
-    "@sigi/core" "^2.5.1"
-    "@sigi/types" "^2.4.5"
+    "@sigi/core" "^2.12.1"
+    "@sigi/types" "^2.11.3"
+    tslib "^2.3.1"
+
+"@sigi/di@^2.11.3":
+  version "2.11.3"
+  resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.11.3.tgz#de9e366efcff1a2fa3b77fddd431bed654722022"
+  integrity sha512-Sy4lSS9Wwx3lzLMlSm/yj2H9ajIfhXga3+jRwBK32zjL5AcOfD1jZpj8cvVwf4hCwxi9RLu48gDktbVAJgIN5A==
+  dependencies:
+    tslib "^2.3.1"
 
 "@sigi/di@^2.3.1", "@sigi/di@^2.4.4":
   version "2.4.4"
@@ -1129,10 +1137,10 @@
   dependencies:
     "@sigi/types" "^2.4.5"
 
-"@sigi/types@^2.4.5":
-  version "2.4.5"
-  resolved "https://registry.yarnpkg.com/@sigi/types/-/types-2.4.5.tgz#8fb7987bb42e6bedbe6916e0e190af8639d41a65"
-  integrity sha512-EfeGaeWwBsgTiVoFiFnIWS1lUZRTguvs8EVQ9pLA4knadSSYSTQDrHE52M77oAmgBjs0D7jD0QEj1rEu0f3O2Q==
+"@sigi/types@^2.11.3", "@sigi/types@^2.4.5":
+  version "2.11.3"
+  resolved "https://registry.yarnpkg.com/@sigi/types/-/types-2.11.3.tgz#d8bb8041ab16ee2bdc4345aad8c8e312e562db77"
+  integrity sha512-Kx21f/2hsE6UWtwkKOy0A4/hSvKhRX/RUgHK2qMjb/jNAll57dt1GbkBB8vG/wlvhfCL+4Wg8GGxEApAJNaSTw==
 
 "@types/anymatch@*":
   version "1.3.1"
@@ -8809,10 +8817,10 @@ tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
   resolved "https://registry.npmjs.org/tslib/-/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
   integrity sha512-i/6DQjL8Xf3be4K/E6Wgpekn5Qasl1usyw++dAA35Ue5orEn65VIxOA+YvNNl9HV3qv70T7CNwjODHZrLwvd1Q==
 
-tslib@^2.0.3, tslib@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.1.0.tgz#da60860f1c2ecaa5703ab7d39bc05b6bf988b97a"
-  integrity sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A==
+tslib@^2.0.3, tslib@^2.1.0, tslib@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
+  integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
 
 tsutils@^3.17.1:
   version "3.17.1"
