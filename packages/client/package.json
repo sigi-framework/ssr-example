@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@emotion/core": "^11.0.0",
-    "@emotion/styled": "^10.0.27",
+    "@emotion/styled": "^11.10.4",
     "md5": "^2.3.0"
   },
   "devDependencies": {
